@@ -44,11 +44,14 @@ This project is a logo generator that uses the Yandex-ART API to create images b
    iam_token = "YOUR_IAM_TOKEN"
    catalog_id = "YOUR_CATALOG_ID"
    ```
-3. **Run the application**:
+
+   Note: Storing the key and token in a .py file is unsafe and applicable for demonstration purposes only. For production use, it's better to store them in an .env file and call the variables through the corresponding function in your code.
+   
+4. **Run the application**:
    ```bash
    python app.py
    ```
-4. **Open in browser**:
+5. **Open in browser**:
    
    Navigate to: `http://127.0.0.1:5000`.
 
